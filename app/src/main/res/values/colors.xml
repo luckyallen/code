@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--底部tab栏背景颜色  -->
+    <color name="color_table_background">#f3f3f3</color>
+    <!--底部tab字体被按压的颜色-->
+    <color name="color_table_text_press">#fe5040</color>
+    <!--默认底部栏字体颜色-->
+    <color name="color_table_text">#7d7d7d</color>
+
+</resources>

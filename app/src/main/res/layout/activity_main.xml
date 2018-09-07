@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"/>
+            <RadioGroup
+                android:id="@+id/main_grp"
+                android:orientation="horizontal"
+                android:background="@color/color_table_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/main_homepage"
+                    style="@style/BottomTabStyle"
+                    android:checked="true"
+                    android:drawableTop="@drawable/ic_bottom_tab_first_selector"
+                    android:text="首页"
+                    android:textColor="@color/color_table_text_press"
+                     />
+                <RadioButton
+                    android:id="@+id/main_orther"
+                    style="@style/BottomTabStyle"
+                    android:drawableTop="@drawable/selector_orther_table"
+                    android:text="其他"
+                   />
+                <RadioButton
+                    android:id="@+id/main_mine"
+                    style="@style/BottomTabStyle"
+                    android:text="我的"
+                    android:drawableTop="@drawable/selector_mine_table" />
+            </RadioGroup>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</FrameLayout>
